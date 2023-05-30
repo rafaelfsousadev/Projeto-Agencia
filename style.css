@@ -137,6 +137,68 @@ section.cta a{
     color: #0f3fd3;
 }
 
+.lista-beneficios{
+    width: 50%;
+    margin-top: 100px;
+}
+
+.img-beneficios{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.img-beneficios img{
+    width: 110%;
+}
+
+.lista-beneficios p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.lista-beneficios span{
+    display: inline-block;
+    width: calc(100% - 70px);
+    vertical-align: middle;
+}
+.lista-beneficios img{
+    display: inline-block;
+    width: 70px;
+    vertical-align: middle;
+}
+
+.lista-beneficios h1{
+    font-size: 50px;
+}
+.lista-beneficios > a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+    background-color: #255AFF;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 600;
+}
+
+section.depoimentos{
+    background-color: #FBFCFE;
+    padding: 40px 0px;
+}
+
+section.depoimentos > h1{
+    text-align: center;
+    font-size: 50px;
+}
+.container-slider{
+    overflow: hidden;
+}
+.container-slider-single{
+    float: left;
+    background-color: white;
+    padding: 10px;
+}
+
+
 @media screen and (max-width: 768px) {
 
     .diferenciais{
@@ -159,5 +221,10 @@ section.cta a{
         max-width: 250px;
         width: 100%;
 
+    }
+
+    .lista-beneficios,.img-beneficios{
+        width: 100%;
+        margin-bottom: 30px;
     }
 }
