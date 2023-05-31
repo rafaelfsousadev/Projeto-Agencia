@@ -313,8 +313,91 @@ section.contato form{
     border-radius: 10px;
 }
 
+footer{
+    padding: 10px 0px;
+    background-color: #255AFF;
+    color: white;
+}
+
+.text-footer{
+    width: 50%;
+    padding: 8px 0px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: 2px 2px 5px black;
+
+}
+
+.items-menu{
+    text-align: right;
+}
+.items-menu-mobile{
+    width: 50%;
+    text-align: right;
+    display: none;
+}
+.items-menu-mobile i{
+    color: white;
+    position: relative;
+    top: 15px;
+    font-size: 23px;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 768px) {
 
+    section.main .items-menu{
+        display: none;
+    }
+
+    .items-menu-mobile{
+        display: block;
+    }
+    .menu-mobile{
+        opacity: 0;
+        position: absolute;
+        left: 0;
+        top: 65px;
+        width: 40%;
+        margin-left: 60%;
+        text-align: center;
+        background-color: black;
+        transition: 1s;
+        border-radius: 15px;
+        border:solid 7px blue ;
+    }
+    .menu-mobile a{
+        text-align: center;
+        display: block;
+        margin: 10px 0px;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        border-bottom: solid 4px blue;
+    }
+    .menu-mobile a:hover{
+        color: yellow;
+    }
+    .show{
+        opacity: 1;
+    }
+    .hide{
+        opacity: 0;
+    }
+
+    .text-footer{
+        width: 100%;
+        text-align: center;
+        padding: 8px 0px;
+    }
+    .items-menu{
+        width: 100%;
+        text-align: center;
+    }
+    .items-menu a{
+        display: block;
+        text-align: center;
+    }
     .diferenciais{
         margin-top: 50px;
         display: flex;
