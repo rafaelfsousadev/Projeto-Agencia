@@ -364,7 +364,7 @@ footer{
         background-color: black;
         transition: 1s;
         border-radius: 15px;
-        border:solid 7px blue ;
+        border:solid 7px blue;
     }
     .menu-mobile a{
         text-align: center;
