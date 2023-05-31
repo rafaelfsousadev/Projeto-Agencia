@@ -148,7 +148,7 @@ section.cta a{
 }
 
 .img-beneficios img{
-    width: 110%;
+    width: 100%;
 }
 
 .lista-beneficios p{
@@ -257,6 +257,61 @@ li.slick-active button{
 
 .slick-slide:focus { outline: none; }
 
+/* fim slick slider */
+
+section.contato{
+    padding: 40px 0px;
+    width: 100%;
+}
+
+section.contato h1{
+    font-size: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+section.contato form{
+    width: 100%;
+    text-align: center;
+}
+
+.contato input[type="text"],
+.contato input[type="email"]{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0px;
+    color: #7E92AC;
+    font-weight: bold;
+    background: #FCFDFF;
+    border: 2px solid #C3CCE8;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.contato textarea{
+    width: 100%;
+    height: 150px;
+    margin: 20px 0px;
+    color: #7E92AC;
+    font-weight: bold;
+    background: #FCFDFF;
+    border: 2px solid #C3CCE8;
+    border-radius: 10px;
+    padding-left: 10px;
+    resize: none;
+}
+
+.contato input[type="submit"]{
+    width: 100%;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border: 0;
+    background-color: #255AFF;
+    color: white;
+    border-radius: 10px;
+}
 
 @media screen and (max-width: 768px) {
 
